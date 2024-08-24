@@ -272,3 +272,82 @@ ul a:hover{
     
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav-logo {
+        height: 40px;
+        width: 80px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search-icon {
+        font-size: 1rem;
+    }
+
+    .cart i {
+        font-size: 25px;
+    }
+}
+@media (max-width: 768px) {
+    .hero-section {
+        height: 250px;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 90%;
+        font-size: 0.75rem;
+    }
+}
+@media (max-width: 1024px) {
+    .box {
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .box-img {
+        height: 200px;
+    }
+}
+@media (max-width: 768px) {
+    .panel2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .panel3, .panel4 {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    /* Adjust styles for extra small devices */
+    .search {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .box-img {
+        height: 150px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+}
+
